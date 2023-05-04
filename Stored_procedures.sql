@@ -5,8 +5,8 @@ CREATE OR REPLACE PROCEDURE ADD_NEW_AIRLINE
 ( p_NAME varchar2,
   p_INITIAL_HUB varchar2
 ) AS
-    v_AIRPORT varchar2;
-    v_AIRLINE_NAME varchar2;
+    v_AIRPORT number;
+    v_AIRLINE_NAME varchar2(20);
 BEGIN
     
     BEGIN
